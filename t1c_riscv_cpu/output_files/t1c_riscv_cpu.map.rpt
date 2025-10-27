@@ -1,5 +1,5 @@
 Analysis & Synthesis report for t1c_riscv_cpu
-Tue Aug 26 22:48:55 2025
+Mon Oct 27 20:02:10 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -64,13 +64,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Aug 26 22:48:55 2025       ;
+; Analysis & Synthesis Status        ; Successful - Mon Oct 27 20:02:10 2025       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; t1c_riscv_cpu                               ;
 ; Top-level Entity Name              ; t1c_riscv_cpu                               ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 7,175                                       ;
-;     Total combinational functions  ; 4,167                                       ;
+; Total logic elements               ; 7,181                                       ;
+;     Total combinational functions  ; 4,173                                       ;
 ;     Dedicated logic registers      ; 3,104                                       ;
 ; Total registers                    ; 3104                                        ;
 ; Total pins                         ; 228                                         ;
@@ -213,7 +213,7 @@ https://fpgasoftware.intel.com/eula.
 ; code/components/alu_decoder.v    ; yes             ; User Verilog HDL File                       ; /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/alu_decoder.v  ;         ;
 ; code/components/alu.v            ; yes             ; User Verilog HDL File                       ; /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/alu.v          ;         ;
 ; code/components/adder.v          ; yes             ; User Verilog HDL File                       ; /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/adder.v        ;         ;
-; code/rv32i_test.hex              ; yes             ; Auto-Found Hexadecimal (Intel-Format) File  ; /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/rv32i_test.hex            ;         ;
+; code/t2b_ex1.hex                 ; yes             ; Auto-Found Hexadecimal (Intel-Format) File  ; /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/t2b_ex1.hex               ;         ;
 +----------------------------------+-----------------+---------------------------------------------+----------------------------------------------------------------------------------------+---------+
 
 
@@ -222,16 +222,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 7,175     ;
+; Estimated Total logic elements              ; 7,181     ;
 ;                                             ;           ;
-; Total combinational functions               ; 4167      ;
+; Total combinational functions               ; 4173      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 3543      ;
-;     -- 3 input functions                    ; 507       ;
-;     -- <=2 input functions                  ; 117       ;
+;     -- 4 input functions                    ; 3539      ;
+;     -- 3 input functions                    ; 518       ;
+;     -- <=2 input functions                  ; 116       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 3963      ;
+;     -- normal mode                          ; 3969      ;
 ;     -- arithmetic mode                      ; 204       ;
 ;                                             ;           ;
 ; Total registers                             ; 3104      ;
@@ -244,7 +244,7 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 3104      ;
-; Total fan-out                               ; 25687     ;
+; Total fan-out                               ; 25702     ;
 ; Average fan-out                             ; 3.32      ;
 +---------------------------------------------+-----------+
 
@@ -254,21 +254,21 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------+---------------+--------------+
 ; Compilation Hierarchy Node   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                          ; Entity Name   ; Library Name ;
 +------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------+---------------+--------------+
-; |t1c_riscv_cpu               ; 4167 (67)           ; 3104 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 228  ; 0            ; 0          ; |t1c_riscv_cpu                                               ; t1c_riscv_cpu ; work         ;
+; |t1c_riscv_cpu               ; 4173 (67)           ; 3104 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 228  ; 0            ; 0          ; |t1c_riscv_cpu                                               ; t1c_riscv_cpu ; work         ;
 ;    |data_mem:datamem|        ; 1424 (1424)         ; 2048 (2048)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|data_mem:datamem                              ; data_mem      ; work         ;
-;    |instr_mem:instrmem|      ; 187 (187)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|instr_mem:instrmem                            ; instr_mem     ; work         ;
-;    |riscv_cpu:rvcpu|         ; 2489 (0)            ; 1056 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu                               ; riscv_cpu     ; work         ;
-;       |controller:c|         ; 27 (8)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|controller:c                  ; controller    ; work         ;
+;    |instr_mem:instrmem|      ; 199 (199)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|instr_mem:instrmem                            ; instr_mem     ; work         ;
+;    |riscv_cpu:rvcpu|         ; 2483 (0)            ; 1056 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu                               ; riscv_cpu     ; work         ;
+;       |controller:c|         ; 20 (3)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|controller:c                  ; controller    ; work         ;
 ;          |alu_decoder:ad|    ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|controller:c|alu_decoder:ad   ; alu_decoder   ; work         ;
-;          |main_decoder:md|   ; 15 (15)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|controller:c|main_decoder:md  ; main_decoder  ; work         ;
-;       |datapath:dp|          ; 2462 (4)            ; 1056 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp                   ; datapath      ; work         ;
+;          |main_decoder:md|   ; 13 (13)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|controller:c|main_decoder:md  ; main_decoder  ; work         ;
+;       |datapath:dp|          ; 2463 (5)            ; 1056 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp                   ; datapath      ; work         ;
 ;          |adder:aupicadder|  ; 60 (60)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|adder:aupicadder  ; adder         ; work         ;
 ;          |adder:pcadd4|      ; 30 (30)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|adder:pcadd4      ; adder         ; work         ;
 ;          |adder:pcaddbranch| ; 32 (32)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|adder:pcaddbranch ; adder         ; work         ;
-;          |alu:alu|           ; 746 (746)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu           ; alu           ; work         ;
-;          |imm_extend:ext|    ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|imm_extend:ext    ; imm_extend    ; work         ;
+;          |alu:alu|           ; 740 (740)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu           ; alu           ; work         ;
+;          |imm_extend:ext|    ; 21 (21)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|imm_extend:ext    ; imm_extend    ; work         ;
 ;          |mux2:jalrmux|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux2:jalrmux      ; mux2          ; work         ;
-;          |mux2:srcbmux|      ; 68 (68)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux2:srcbmux      ; mux2          ; work         ;
+;          |mux2:srcbmux|      ; 65 (65)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux2:srcbmux      ; mux2          ; work         ;
 ;          |mux4:resultmux|    ; 73 (73)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux    ; mux4          ; work         ;
 ;          |reg_file:rf|       ; 1404 (1404)         ; 1024 (1024)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_file:rf       ; reg_file      ; work         ;
 ;          |reset_ff:pcreg|    ; 31 (31)             ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg    ; reset_ff      ; work         ;
@@ -297,20 +297,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[0]  ;
-; 3:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[29] ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux2:srcbmux|y[5]    ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux2:srcbmux|y[2]    ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|imm_extend:ext|Mux20 ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 3 LEs                ; 6 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|imm_extend:ext|Mux21 ;
-; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[3]  ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[1]  ;
-; 6:1                ; 16 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[31] ;
-; 7:1                ; 4 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[9]  ;
+; 3:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[30] ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux2:srcbmux|y[11]   ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux2:srcbmux|y[3]    ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|imm_extend:ext|Mux7  ;
+; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[2]  ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[0]  ;
+; 6:1                ; 16 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[23] ;
+; 7:1                ; 4 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[11] ;
 ; 7:1                ; 4 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:resultmux|y[13] ;
 ; 19:1               ; 8 bits    ; 96 LEs        ; 64 LEs               ; 32 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu|Mux23        ;
-; 20:1               ; 7 bits    ; 91 LEs        ; 56 LEs               ; 35 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu|Mux14        ;
+; 20:1               ; 7 bits    ; 91 LEs        ; 56 LEs               ; 35 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu|Mux11        ;
 ; 20:1               ; 4 bits    ; 52 LEs        ; 32 LEs               ; 20 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu|Mux27        ;
-; 21:1               ; 4 bits    ; 56 LEs        ; 36 LEs               ; 20 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu|Mux7         ;
+; 21:1               ; 4 bits    ; 56 LEs        ; 36 LEs               ; 20 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu|Mux4         ;
 ; 21:1               ; 2 bits    ; 28 LEs        ; 20 LEs               ; 8 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu|Mux28        ;
 ; 22:1               ; 2 bits    ; 28 LEs        ; 18 LEs               ; 10 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|alu:alu|Mux2         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
@@ -517,19 +516,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     CLR SLD           ; 30                          ;
 ;     ENA               ; 3072                        ;
 ;     ENA CLR           ; 2                           ;
-; cycloneiii_lcell_comb ; 4167                        ;
+; cycloneiii_lcell_comb ; 4173                        ;
 ;     arith             ; 204                         ;
 ;         2 data inputs ; 29                          ;
 ;         3 data inputs ; 175                         ;
-;     normal            ; 3963                        ;
+;     normal            ; 3969                        ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 86                          ;
-;         3 data inputs ; 332                         ;
-;         4 data inputs ; 3543                        ;
+;         2 data inputs ; 85                          ;
+;         3 data inputs ; 343                         ;
+;         4 data inputs ; 3539                        ;
 ;                       ;                             ;
 ; Max LUT depth         ; 31.00                       ;
-; Average LUT depth     ; 19.44                       ;
+; Average LUT depth     ; 19.81                       ;
 +-----------------------+-----------------------------+
 
 
@@ -548,7 +547,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Aug 26 22:48:39 2025
+    Info: Processing started: Mon Oct 27 20:01:54 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off t1c_riscv_cpu -c t1c_riscv_cpu
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -592,36 +591,71 @@ Info (12128): Elaborating entity "main_decoder" for hierarchy "riscv_cpu:rvcpu|c
 Warning (10270): Verilog HDL Case Statement warning at main_decoder.v(79): incomplete case statement has no default case item File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/main_decoder.v Line: 79
 Info (12128): Elaborating entity "alu_decoder" for hierarchy "riscv_cpu:rvcpu|controller:c|alu_decoder:ad" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/controller.v Line: 23
 Info (12128): Elaborating entity "datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/riscv_cpu.v Line: 68
-Info (12128): Elaborating entity "mux2" for hierarchy "riscv_cpu:rvcpu|datapath:dp|mux2:shamt_mux" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 28
-Info (12128): Elaborating entity "reset_ff" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 32
-Info (12128): Elaborating entity "adder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|adder:pcadd4" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 33
-Info (12128): Elaborating entity "reg_file" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_file:rf" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 35
-Info (12128): Elaborating entity "imm_extend" for hierarchy "riscv_cpu:rvcpu|datapath:dp|imm_extend:ext" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 36
-Info (12128): Elaborating entity "alu" for hierarchy "riscv_cpu:rvcpu|datapath:dp|alu:alu" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 39
-Info (12128): Elaborating entity "mux4" for hierarchy "riscv_cpu:rvcpu|datapath:dp|mux4:resultmux" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 44
+Warning (10036): Verilog HDL or VHDL warning at datapath.v(28): object "PCNext_or_zero" assigned a value but never read File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 28
+Info (12128): Elaborating entity "mux2" for hierarchy "riscv_cpu:rvcpu|datapath:dp|mux2:shamt_mux" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 29
+Info (12128): Elaborating entity "reset_ff" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 34
+Info (12128): Elaborating entity "adder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|adder:pcadd4" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 35
+Info (12128): Elaborating entity "reg_file" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_file:rf" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 37
+Info (12128): Elaborating entity "imm_extend" for hierarchy "riscv_cpu:rvcpu|datapath:dp|imm_extend:ext" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 38
+Info (12128): Elaborating entity "alu" for hierarchy "riscv_cpu:rvcpu|datapath:dp|alu:alu" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 41
+Info (12128): Elaborating entity "mux4" for hierarchy "riscv_cpu:rvcpu|datapath:dp|mux4:resultmux" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v Line: 46
 Info (12128): Elaborating entity "instr_mem" for hierarchy "instr_mem:instrmem" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/t1c_riscv_cpu.v Line: 21
-Warning (10850): Verilog HDL warning at instr_mem.v(13): number of words (79) in memory file does not match the number of elements in the address range [0:511] File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 13
+Warning (10850): Verilog HDL warning at instr_mem.v(26): number of words (288) in memory file does not match the number of elements in the address range [0:2047] File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 26
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(38): ======================================== File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 38
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(39): Loaded: t2b_ex1.hex (byte format) File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 39
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(40): Format: Verilog hex with @ markers File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 40
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(41): ========================================\n File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 41
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(43): Instruction Memory Contents: File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 43
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(46):   [%2d] Addr 0x%3X: 0x%8h File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 46
+Info (10648): Verilog HDL Display System Task info at instr_mem.v(49): ========================================\n File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 49
 Warning (10030): Net "instr_ram.data_a" at instr_mem.v(9) has no driver or initial value, using a default initial value '0' File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 9
 Warning (10030): Net "instr_ram.waddr_a" at instr_mem.v(9) has no driver or initial value, using a default initial value '0' File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 9
 Warning (10030): Net "instr_ram.we_a" at instr_mem.v(9) has no driver or initial value, using a default initial value '0' File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 9
 Info (12128): Elaborating entity "data_mem" for hierarchy "data_mem:datamem" File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/t1c_riscv_cpu.v Line: 22
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/db/t1c_riscv_cpu.ram0_instr_mem_8ff0214b.hdl.mif" contains "don't care" values -- overwriting them with 0s
 Info (276014): Found 3 instances of uninferred RAM logic
     Info (276013): RAM logic "instr_mem:instrmem|instr_ram" is uninferred because MIF is not supported for the selected family File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v Line: 9
     Info (276007): RAM logic "riscv_cpu:rvcpu|datapath:dp|reg_file:rf|reg_file_arr" is uninferred due to asynchronous read logic File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/reg_file.v Line: 16
     Info (276007): RAM logic "data_mem:datamem|data_ram" is uninferred due to asynchronous read logic File: /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/data_mem.v Line: 11
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/db/t1c_riscv_cpu.ram0_instr_mem_8ff0214b.hdl.mif" contains "don't care" values -- overwriting them with 0s
 Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/output_files/t1c_riscv_cpu.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 7467 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 7473 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 67 input pins
     Info (21059): Implemented 161 output pins
-    Info (21061): Implemented 7239 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 9 warnings
+    Info (21061): Implemented 7245 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
     Info: Peak virtual memory: 505 megabytes
-    Info: Processing ended: Tue Aug 26 22:48:55 2025
+    Info: Processing ended: Mon Oct 27 20:02:10 2025
     Info: Elapsed time: 00:00:16
     Info: Total CPU time (on all processors): 00:00:25
 

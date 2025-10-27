@@ -25,10 +25,12 @@ module datapath (
     wire        is_i_type_shift = (Instr[6:0] == 7'b0010011) &&
                                   (Instr[14:12] == 3'b001 || Instr[14:12] == 3'b101);
     wire [31:0] shamt_immediate = {{27{1'b0}}, Instr[24:20]};
+	 wire [31:0] PCNext_or_zero;
     mux2 #(32)  shamt_mux(ImmExt, shamt_immediate, is_i_type_shift, SrcB_from_imm);
     mux2 #(32)  srcbmux(WriteData, SrcB_from_imm, ALUSrc, SrcB);
     mux2 #(32)     pcmux(PCPlus4, PCTarget, PCSrc, PCNext);
     mux2 #(32)     jalrmux(PCNext, ALUResult, jalr, PCjalr);
+	 assign PCNext_or_zero = reset ? 32'h00000000 : PCjalr;
     reset_ff #(32) pcreg(clk, reset, PCjalr, PC);
     adder          pcadd4(PC, 32'd4, PCPlus4);
     adder          pcaddbranch(PC, ImmExt, PCTarget);
