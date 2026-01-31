@@ -75,6 +75,11 @@ localparam BEQ_OUT  =   32'h128;
 
 localparam JALR     =   32'h134;
 localparam JAL      =   32'h138;
+localparam MUL      =   32'h144;
+localparam MULH     =   32'h148;
+localparam MULHSU   =   32'h14c;
+localparam MULHU    =   32'h150;
+localparam DIV      =   32'h154;
 
 // generate clock to sequence tests
 always begin
@@ -146,7 +151,7 @@ always @(negedge clk) begin
             i = i + 1'b1;
             if(Result === 1) $display("5. sltiu implementation is correct ");
             else begin
-                $display("5. sltiu implementation is incorrect");
+                $display("5. sltiu implementation is incorrect. Result:%d",Result);
                 fault_instrs = fault_instrs + 1'b1;
             end
         end
@@ -155,7 +160,7 @@ always @(negedge clk) begin
             i = i + 1'b1;
             if(Result === 2) $display("6. xori implementation is correct ");
             else begin
-                $display("6. xori implementation is incorrect");
+                $display("6. xori implementation is incorrect. Result : %d",Result);
                 fault_instrs = fault_instrs + 1'b1;
             end
         end
@@ -182,7 +187,7 @@ always @(negedge clk) begin
             i = i + 1'b1;
             if(Result === -1) $display("9. ori implementation is correct ");
             else begin
-                $display("9. ori implementation is incorrect");
+                $display("9. ori implementation is incorrect. Result : %d",Result);
                 fault_instrs = fault_instrs + 1'b1;
             end
         end
@@ -191,7 +196,7 @@ always @(negedge clk) begin
             i = i + 1'b1;
             if(Result === 1) $display("10. andi implementation is correct");
             else begin
-                $display("10. andi implementation is incorrect");
+                $display("10. andi implementation is incorrect. Result : %d",Result);
                 fault_instrs = fault_instrs + 1'b1;
             end
         end
@@ -503,17 +508,69 @@ always @(negedge clk) begin
 
         JAL     : begin
             i = i + 1'b1;
-            if (Result === 32'h13C ) $display("38. jal implementation is correct ");
+            if (Result === 32'h13C ) $display("38. jal implementation is correct. Result : %h ",Result);
             else begin
-                $display("38. jal implementation is incorrect");
+                $display("38. jal implementation is incorrect. Result : %h",Result);
             end
+        end
+        
+        MUL     : begin
+            i = i + 1'b1;
+            if (Result === 45) begin
+            	$display("39. mul implementation is correct ");
+            end
+            else begin
+            	$display("39. mul implementation is incorrect. Result : %d", Result);
+            	fault_instrs = fault_instrs + 1'b1;
+            end
+        end
+        
+        MULH    : begin
+             i = i + 1'b1;
+             if (Result === 0) begin
+             	$display("40. mulh implementation is correct ");
+             end
+             else begin
+             	 $display("40. mulh implementation is incorrect.Result:%d ", Result);
+             	 fault_instrs = fault_instrs + 1'b1;
+             end
+        end
+        
+        MULHSU  : begin
+              i = i + 1'b1;
+              if (Result === 0) begin
+              	$display("41. mulhsu implementation is correct ");
+              end
+              else begin
+              	  $display("41. mulhsu implementation is incorrect. Result:%d", Result);
+              end
+        end
+        
+        MULHU   : begin
+              i = i + 1'b1;
+              if (Result === 0) begin
+              	$display("42. mulhu implementation is correct ");
+              end
+              else begin
+              	  $display("42. mulhu implementation is incorrect. Result:%d", Result);
+              end
+        end
+        
+        DIV     : begin
+             i = i + 1'b1;
+             if (Result === 5) begin
+             	$display("43. div implementation is correct ");
+             end
+             else begin
+             	 $display("43. div implementation is incorrect. Result:%d", Result);
+             end
         end
 
     endcase
 end
 
 always @(negedge clk) begin
-    if (i >= 38 || flag == 1) begin
+    if (i >= 43 || flag == 1) begin
         $display("Faulty Instructions => %d", fault_instrs);
         if (fault_instrs !== 0) begin
             fw = $fopen("results.txt","w");

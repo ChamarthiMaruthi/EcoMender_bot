@@ -11,170 +11,170 @@
 # 
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/t1c_riscv_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:40 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/t1c_riscv_cpu.v 
 # -- Compiling module t1c_riscv_cpu
 # 
 # Top level modules:
 # 	t1c_riscv_cpu
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/riscv_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/riscv_cpu.v 
 # -- Compiling module riscv_cpu
 # 
 # Top level modules:
 # 	riscv_cpu
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/data_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/data_mem.v 
 # -- Compiling module data_mem
 # 
 # Top level modules:
 # 	data_mem
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/reset_ff.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/reset_ff.v 
 # -- Compiling module reset_ff
 # 
 # Top level modules:
 # 	reset_ff
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/reg_file.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/reg_file.v 
 # -- Compiling module reg_file
 # 
 # Top level modules:
 # 	reg_file
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/mux4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/mux4.v 
 # -- Compiling module mux4
 # 
 # Top level modules:
 # 	mux4
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/mux2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/mux2.v 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/main_decoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/main_decoder.v 
 # -- Compiling module main_decoder
 # 
 # Top level modules:
 # 	main_decoder
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/imm_extend.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/imm_extend.v 
 # -- Compiling module imm_extend
 # 
 # Top level modules:
 # 	imm_extend
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/datapath.v 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/controller.v 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/alu_decoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/alu_decoder.v 
 # -- Compiling module alu_decoder
 # 
 # Top level modules:
 # 	alu_decoder
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/components/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
+# Start time: 13:36:41 on Jan 31,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/code/instr_mem.v 
 # -- Compiling module instr_mem
 # 
 # Top level modules:
 # 	instr_mem
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test/tb_1.v}
+# vlog -vlog01compat -work work +incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test {/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test/tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:03:46 on Oct 30,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test/tb_1.v 
-# -- Compiling module tb_1
+# Start time: 13:36:41 on Jan 31,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test" /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test/tb.v 
+# -- Compiling module tb
 # 
 # Top level modules:
-# 	tb_1
-# End time: 21:03:46 on Oct 30,2025, Elapsed time: 0:00:00
+# 	tb
+# End time: 13:36:41 on Jan 31,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_1
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_1 
-# Start time: 21:03:46 on Oct 30,2025
-# Loading work.tb_1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 13:36:41 on Jan 31,2026
+# Loading work.tb
 # Loading work.t1c_riscv_cpu
 # Loading work.riscv_cpu
 # Loading work.controller
@@ -196,202 +196,91 @@
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run -all
-# ========================================
-# Loaded: t2b_ex1.hex (byte format)
-# Format: Verilog hex with @ markers
-# ========================================
-# 
-# Instruction Memory Contents:
-#   [ 0] Addr 0x000: 0xff010113
-#   [ 1] Addr 0x004: 0x00112623
-#   [ 2] Addr 0x008: 0x00812423
-#   [ 3] Addr 0x00c: 0x01010413
-#   [ 4] Addr 0x010: 0x054000ef
-#   [ 5] Addr 0x014: 0x0000006f
-#   [ 6] Addr 0x018: 0xfd010113
-#   [ 7] Addr 0x01c: 0x02812623
-#   [ 8] Addr 0x020: 0x03010413
-#   [ 9] Addr 0x024: 0x00050793
-#   [10] Addr 0x028: 0xfcf40fa3
-#   [11] Addr 0x02c: 0xfdf44783
-#   [12] Addr 0x030: 0xfef407a3
-#   [13] Addr 0x034: 0x00000013
-#   [14] Addr 0x038: 0x02c12403
-#   [15] Addr 0x03c: 0x03010113
-#   [16] Addr 0x040: 0x00008067
-#   [17] Addr 0x044: 0xfe010113
-#   [18] Addr 0x048: 0x00812e23
-#   [19] Addr 0x04c: 0x02010413
-#   [20] Addr 0x050: 0xfea42623
-#   [21] Addr 0x054: 0x00000013
-#   [22] Addr 0x058: 0x01c12403
-#   [23] Addr 0x05c: 0x02010113
-#   [24] Addr 0x060: 0x00008067
-#   [25] Addr 0x064: 0xfe010113
-#   [26] Addr 0x068: 0x00112e23
-#   [27] Addr 0x06c: 0x00812c23
-#   [28] Addr 0x070: 0x02010413
-#   [29] Addr 0x074: 0x020007b7
-# ========================================
-# 
-# Time: 20000 | Written N=20 to address 0x02000000
-# ========================================
-# Memory Initialization Check:
-#   data_ram[0] (N)        = 0x00000014 (expected 0x00000014)
-#   data_ram[1] (SUM)      = 0x00000000 (expected 0x00000000)
-#   data_ram[2] (CPU_DONE) = 0x00000000 (expected 0x00000000)
-# ========================================
-# [MEM WRITE   1] Cycle:     1 | Addr: 0xffffffac | Data: 0x00000000 (0)
-# [EXEC   1] PC: 0x00000004 | Instr: 0x00112623 | Result: 0xffffffac
-# ========================================
-# Testing t2b_ex1.c - Sum of Natural Numbers
-# N = 20
-# Expected SUM = 210
-# ========================================
-# Looking for writes to:
-#   N_ADDR:        0x02000000
-#   SUM_ADDR:      0x02000004
-#   CPU_DONE_ADDR: 0x02000008
-# ========================================
-# 
-# [MEM WRITE   2] Cycle:     2 | Addr: 0xffffffa8 | Data: 0x00000000 (0)
-# [EXEC   2] PC: 0x00000008 | Instr: 0x00812423 | Result: 0xffffffa8
-# [EXEC   3] PC: 0x0000000c | Instr: 0x01010413 | Result: 0xffffffb0
-# [EXEC   4] PC: 0x00000010 | Instr: 0x054000ef | Result: 0x00000014
-# [EXEC   5] PC: 0x00000064 | Instr: 0xfe010113 | Result: 0xffffff80
-# [MEM WRITE   3] Cycle:     6 | Addr: 0xffffff9c | Data: 0x00000014 (20)
-# [EXEC   6] PC: 0x00000068 | Instr: 0x00112e23 | Result: 0xffffff9c
-# [MEM WRITE   4] Cycle:     7 | Addr: 0xffffff98 | Data: 0xffffffb0 (4294967216)
-# [EXEC   7] PC: 0x0000006c | Instr: 0x00812c23 | Result: 0xffffff98
-# [EXEC   8] PC: 0x00000070 | Instr: 0x02010413 | Result: 0xffffffa0
-# [EXEC   9] PC: 0x00000074 | Instr: 0x020007b7 | Result: 0x02000000
-# [MEM WRITE   5] Cycle:    10 | Addr: 0xffffff88 | Data: 0x02000000 (33554432)
-# [EXEC  10] PC: 0x00000078 | Instr: 0xfef42423 | Result: 0xffffff88
-# [EXEC  11] PC: 0x0000007c | Instr: 0x020007b7 | Result: 0x02000000
-# [EXEC  12] PC: 0x00000080 | Instr: 0x00478793 | Result: 0x02000004
-# [MEM WRITE   6] Cycle:    13 | Addr: 0xffffff84 | Data: 0x02000004 (33554436)
-# [EXEC  13] PC: 0x00000084 | Instr: 0xfef42223 | Result: 0xffffff84
-# [EXEC  14] PC: 0x00000088 | Instr: 0x020007b7 | Result: 0x02000000
-# [EXEC  15] PC: 0x0000008c | Instr: 0x00878793 | Result: 0x02000008
-# [MEM WRITE   7] Cycle:    16 | Addr: 0xffffff80 | Data: 0x02000008 (33554440)
-# [EXEC  16] PC: 0x00000090 | Instr: 0xfef42023 | Result: 0xffffff80
-# [EXEC  17] PC: 0x00000094 | Instr: 0xfe442783 | Result: 0x02000004
-# [MEM WRITE   8] Cycle:    18 | Addr: 0x02000004 | Data: 0x00000000 (0)
-# [EXEC  18] PC: 0x00000098 | Instr: 0x00078023 | Result: 0x02000004
-# [EXEC  19] PC: 0x0000009c | Instr: 0x00100793 | Result: 0x00000001
-# [MEM WRITE   9] Cycle:    20 | Addr: 0xffffff8f | Data: 0x00000001 (1)
-# [EXEC  20] PC: 0x000000a0 | Instr: 0xfef407a3 | Result: 0xffffff8f
-# [EXEC  21] PC: 0x000000a4 | Instr: 0x0440006f | Result: 0x000000a8
-# [EXEC  22] PC: 0x000000e8 | Instr: 0xfe842783 | Result: 0x02000000
-# [EXEC  23] PC: 0x000000ec | Instr: 0x0007c783 | Result: 0x00000014
-# [EXEC  24] PC: 0x000000f0 | Instr: 0x0ff7f793 | Result: 0x00000014
-# [EXEC  25] PC: 0x000000f4 | Instr: 0xfef44703 | Result: 0x00000001
-# [EXEC  26] PC: 0x000000f8 | Instr: 0xfae7f8e3 | Result: 0x00000013
-# [EXEC  27] PC: 0x000000a8 | Instr: 0xfe442783 | Result: 0x02000004
-# [EXEC  28] PC: 0x000000ac | Instr: 0x0007c783 | Result: 0x00000000
-# [EXEC  29] PC: 0x000000b0 | Instr: 0x0ff7f713 | Result: 0x00000000
-# [EXEC  30] PC: 0x000000b4 | Instr: 0xfef44783 | Result: 0x00000001
-# [EXEC  31] PC: 0x000000b8 | Instr: 0x00f707b3 | Result: 0x00000001
-# [EXEC  32] PC: 0x000000bc | Instr: 0x0ff7f713 | Result: 0x00000001
-# [EXEC  33] PC: 0x000000c0 | Instr: 0xfe442783 | Result: 0x02000004
-# [MEM WRITE  10] Cycle:    34 | Addr: 0x02000004 | Data: 0x00000001 (1)
-# [EXEC  34] PC: 0x000000c4 | Instr: 0x00e78023 | Result: 0x02000004
-# [EXEC  35] PC: 0x000000c8 | Instr: 0xfe442783 | Result: 0x02000004
-# [EXEC  36] PC: 0x000000cc | Instr: 0x0007c783 | Result: 0x00000001
-# [EXEC  37] PC: 0x000000d0 | Instr: 0x0ff7f793 | Result: 0x00000001
-# [EXEC  38] PC: 0x000000d4 | Instr: 0x00078513 | Result: 0x00000001
-# [EXEC  39] PC: 0x000000d8 | Instr: 0xf41ff0ef | Result: 0x000000dc
-# [EXEC  40] PC: 0x00000018 | Instr: 0xfd010113 | Result: 0xffffff50
-# [MEM WRITE  11] Cycle:    41 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [EXEC  41] PC: 0x0000001c | Instr: 0x02812623 | Result: 0xffffff7c
-# [EXEC  42] PC: 0x00000020 | Instr: 0x03010413 | Result: 0xffffff80
-# [EXEC  43] PC: 0x00000024 | Instr: 0x00050793 | Result: 0x00000001
-# [MEM WRITE  12] Cycle:    44 | Addr: 0xffffff5f | Data: 0x00000001 (1)
-# [EXEC  44] PC: 0x00000028 | Instr: 0xfcf40fa3 | Result: 0xffffff5f
-# [EXEC  45] PC: 0x0000002c | Instr: 0xfdf44783 | Result: 0x00000001
-# [MEM WRITE  13] Cycle:    46 | Addr: 0xffffff6f | Data: 0x00000001 (1)
-# [EXEC  46] PC: 0x00000030 | Instr: 0xfef407a3 | Result: 0xffffff6f
-# [EXEC  47] PC: 0x00000034 | Instr: 0x00000013 | Result: 0x00000000
-# [EXEC  48] PC: 0x00000038 | Instr: 0x02c12403 | Result: 0xffffffa0
-# [EXEC  49] PC: 0x0000003c | Instr: 0x03010113 | Result: 0xffffff80
-# [EXEC  50] PC: 0x00000040 | Instr: 0x00008067 | Result: 0x00000044
-# [EXEC  51] PC: 0x000000dc | Instr: 0xfef44783 | Result: 0x00000001
-# [EXEC  52] PC: 0x000000e0 | Instr: 0x00178793 | Result: 0x00000002
-# [MEM WRITE  14] Cycle:    53 | Addr: 0xffffff8f | Data: 0x00000002 (2)
-# [EXEC  53] PC: 0x000000e4 | Instr: 0xfef407a3 | Result: 0xffffff8f
-# [EXEC  54] PC: 0x000000e8 | Instr: 0xfe842783 | Result: 0x02000000
-# [EXEC  55] PC: 0x000000ec | Instr: 0x0007c783 | Result: 0x00000014
-# [EXEC  56] PC: 0x000000f0 | Instr: 0x0ff7f793 | Result: 0x00000014
-# [EXEC  57] PC: 0x000000f4 | Instr: 0xfef44703 | Result: 0x00000002
-# [EXEC  58] PC: 0x000000f8 | Instr: 0xfae7f8e3 | Result: 0x00000012
-# [EXEC  59] PC: 0x000000a8 | Instr: 0xfe442783 | Result: 0x02000004
-# [EXEC  60] PC: 0x000000ac | Instr: 0x0007c783 | Result: 0x00000001
-# 
-# ... (suppressing instruction trace) ...
-# 
-# [MEM WRITE  15] Cycle:    66 | Addr: 0x02000004 | Data: 0x00000003 (3)
-# [MEM WRITE  16] Cycle:    73 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  17] Cycle:    76 | Addr: 0xffffff5f | Data: 0x00000003 (3)
-# [MEM WRITE  18] Cycle:    78 | Addr: 0xffffff6f | Data: 0x00000003 (3)
-# [MEM WRITE  19] Cycle:    85 | Addr: 0xffffff8f | Data: 0x00000003 (3)
-# [MEM WRITE  20] Cycle:    98 | Addr: 0x02000004 | Data: 0x00000006 (6)
-# [MEM WRITE  21] Cycle:   105 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  22] Cycle:   108 | Addr: 0xffffff5f | Data: 0x00000006 (6)
-# [MEM WRITE  23] Cycle:   110 | Addr: 0xffffff6f | Data: 0x00000006 (6)
-# [MEM WRITE  24] Cycle:   117 | Addr: 0xffffff8f | Data: 0x00000004 (4)
-# [MEM WRITE  25] Cycle:   130 | Addr: 0x02000004 | Data: 0x0000000a (10)
-# [MEM WRITE  26] Cycle:   137 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  27] Cycle:   140 | Addr: 0xffffff5f | Data: 0x0000000a (10)
-# [MEM WRITE  28] Cycle:   142 | Addr: 0xffffff6f | Data: 0x0000000a (10)
-# [MEM WRITE  29] Cycle:   149 | Addr: 0xffffff8f | Data: 0x00000005 (5)
-# [MEM WRITE  30] Cycle:   162 | Addr: 0x02000004 | Data: 0x0000000f (15)
-# [MEM WRITE  31] Cycle:   169 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  32] Cycle:   172 | Addr: 0xffffff5f | Data: 0x0000000f (15)
-# [MEM WRITE  33] Cycle:   174 | Addr: 0xffffff6f | Data: 0x0000000f (15)
-# [MEM WRITE  34] Cycle:   181 | Addr: 0xffffff8f | Data: 0x00000006 (6)
-# [MEM WRITE  35] Cycle:   194 | Addr: 0x02000004 | Data: 0x00000015 (21)
-# [MEM WRITE  36] Cycle:   201 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  37] Cycle:   204 | Addr: 0xffffff5f | Data: 0x00000015 (21)
-# [MEM WRITE  38] Cycle:   206 | Addr: 0xffffff6f | Data: 0x00000015 (21)
-# [MEM WRITE  39] Cycle:   213 | Addr: 0xffffff8f | Data: 0x00000007 (7)
-# [MEM WRITE  40] Cycle:   226 | Addr: 0x02000004 | Data: 0x0000001c (28)
-# [MEM WRITE  41] Cycle:   233 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  42] Cycle:   236 | Addr: 0xffffff5f | Data: 0x0000001c (28)
-# [MEM WRITE  43] Cycle:   238 | Addr: 0xffffff6f | Data: 0x0000001c (28)
-# [MEM WRITE  44] Cycle:   245 | Addr: 0xffffff8f | Data: 0x00000008 (8)
-# [MEM WRITE  45] Cycle:   258 | Addr: 0x02000004 | Data: 0x00000024 (36)
-# [MEM WRITE  46] Cycle:   265 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  47] Cycle:   268 | Addr: 0xffffff5f | Data: 0x00000024 (36)
-# [MEM WRITE  48] Cycle:   270 | Addr: 0xffffff6f | Data: 0x00000024 (36)
-# [MEM WRITE  49] Cycle:   277 | Addr: 0xffffff8f | Data: 0x00000009 (9)
-# [MEM WRITE  50] Cycle:   290 | Addr: 0x02000004 | Data: 0x0000002d (45)
-# [MEM WRITE  51] Cycle:   297 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  52] Cycle:   300 | Addr: 0xffffff5f | Data: 0x0000002d (45)
-# [MEM WRITE  53] Cycle:   302 | Addr: 0xffffff6f | Data: 0x0000002d (45)
-# [MEM WRITE  54] Cycle:   309 | Addr: 0xffffff8f | Data: 0x0000000a (10)
-# [MEM WRITE  55] Cycle:   322 | Addr: 0x02000004 | Data: 0x00000037 (55)
-# [MEM WRITE  56] Cycle:   329 | Addr: 0xffffff7c | Data: 0xffffffa0 (4294967200)
-# [MEM WRITE  57] Cycle:   332 | Addr: 0xffffff5f | Data: 0x00000037 (55)
-# [MEM WRITE  58] Cycle:   334 | Addr: 0xffffff6f | Data: 0x00000037 (55)
-# [MEM WRITE  59] Cycle:   341 | Addr: 0xffffff8f | Data: 0x0000000b (11)
-# [MEM WRITE  60] Cycle:   354 | Addr: 0x02000004 | Data: 0x00000042 (66)
-# 
-# ... (suppressing further memory write details) ...
-# 
-# 
-# ========================================
-# CPU_DONE flag set!
-# ========================================
-# Final SUM = 210
-# Total SUM updates: 21
-# Total cycles: 669
-# Total memory writes: 110
-# ========================================
-# ✓ TEST PASSED: SUM is correct!
+# run 2000 ns
+# 1. addi implementation is correct for x0 
+# 2. addi implementation is correct 
+# 3. slli implementation is correct 
+# 4. slti implementation is correct 
+# 5. sltiu implementation is correct 
+# 6. xori implementation is correct 
+# 7. srli implementation is correct 
+# 8. srai implementation is correct 
+# 9. ori implementation is correct 
+# 10. andi implementation is correct
+# 11. add implementation is correct 
+# 12. sub implementation is correct 
+# 13. sll implementation is correct 
+# 14. slt implementation is correct 
+# 15. sltu implementation is correct 
+# 16. xor implementation is correct 
+# 17. srl implementation is correct 
+# 18. sra implementation is correct 
+# 19. or implementation is correct 
+# 20. and implementation is correct 
+# 21. lui implementation is correct 
+# 22. auipc implementation is correct 
+# 23. sb implementation is correct
+# 24. sh implementation is correct
+# 25. sw implementation is correct
+# 26. lb implementation is correct
+# 27. lh implementation is correct
+# 28. lw implementation is correct
+# 29. lbu implementation is correct
+# 30. lhu implementation is correct
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt implementation is correct 
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge implementation is correct
+# 33. bltu is executing
+# 33. bltu is executing
+# 33. bltu is executing
+# 33. bltu is executing
+# 33. bltu implementation is correct 
+# 34. bgeu is executing
+# 34. bgeu is executing
+# 34. bgeu is executing
+# 34. bgeu is executing
+# 34. bgeu is executing
+# 34. bgeu implementation is correct 
+# 35. bne is executing
+# 35. bne is executing
+# 35. bne is executing
+# 35. bne is executing
+# 35. bne is executing
+# 35. bne implementation is correct 
+# 36. beq is executing
+# 36. beq is executing
+# 36. beq implementation is correct 
+# 37. jalr implementation is correct 
+# 38. jal implementation is correct. Result : 0000013c 
+# 39. mul implementation is correct 
+# 40. mulh implementation is correct 
+# 41. mulhsu implementation is correct 
+# 42. mulhu implementation is correct 
+# 43. div implementation is incorrect. Result:         0
+# Faulty Instructions =>           0
 # No errors encountered, congratulations!
-# ** Note: $stop    : /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test/tb_1.v(144)
-#    Time: 6745 ns  Iteration: 1  Instance: /tb_1
-# Break in Module tb_1 at /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test/tb_1.v line 144
-# End time: 21:03:59 on Oct 30,2025, Elapsed time: 0:00:13
+# ** Note: $stop    : /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test/tb.v(587)
+#    Time: 1775 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at /home/maruthi/intelFPGA_lite/20.1/quartus/t1c_riscv_cpu/.test/tb.v line 587
+# End time: 13:36:58 on Jan 31,2026, Elapsed time: 0:00:17
 # Errors: 0, Warnings: 0
